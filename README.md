@@ -1,4 +1,4 @@
-https://bhushan-shimpi-2003.github.io/Portfolio/
+www.bhushanshimpi.site
 # Portfolio Website
 
 ## 📌 About the Project
