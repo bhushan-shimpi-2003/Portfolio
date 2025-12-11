@@ -1,41 +1,20 @@
-www.bhushanshimpi.site
-# Portfolio Website
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-## 📌 About the Project
-This is a personal **Portfolio Website** designed to showcase my skills, projects, and professional experience. It serves as an online resume where visitors can learn about me, my technical expertise, and the work I have done.
+# Run and deploy your AI Studio app
 
-## 🚀 Features
-- **Home Page:** Introduction and overview of my work.
-- **About Me:** Brief background, education, and interests.
-- **Projects:** Detailed descriptions of the projects I have worked on.
-- **Skills:** List of technical and soft skills.
-- **Resume Download:** Option to download my resume in PDF format.
-- **Contact:** Contact form for visitors to reach out.
-- **Responsive Design:** Mobile-friendly and adaptable to different screen sizes.
+This contains everything you need to run your app locally.
 
-## 🛠️ Technologies Used
-- **Frontend:** HTML, CSS, JavaScript
-- **Deployment:** GitHub Pages / Vercel / Netlify
+View your app in AI Studio: https://ai.studio/apps/drive/1Gbs2VFyQLqQJ0cP5lOx7hJwk0mApAujW
 
-## 🎨 UI/UX Considerations
-- Clean and minimalistic design
-- Easy navigation with smooth transitions
-- Engaging animations and interactive elements
-- Accessibility and user-friendly experience
+## Run Locally
 
-## 🚀 Getting Started
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/portfolio.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd portfolio
-   ```
-3. Open `index.html` in a browser or use a local development server.
+**Prerequisites:**  Node.js
 
-## 📬 Contact
-If you have any queries or suggestions, feel free to connect with me:
-- **Email:** bhushanshimpi2503@gmail.com
-Feel free to modify and enhance the project as per your needs! 🚀
 
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
