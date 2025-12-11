@@ -20,7 +20,7 @@ const Resume: React.FC = () => {
       
       // Check if file exists and is likely a PDF (not the HTML fallback)
       if (response.ok && contentType !== 'text/html') {
-        window.location.href = '/resume.pdf';
+        window.location.href = '/assets/resume.pdf';
       } else {
         throw new Error("File not found");
       }
