@@ -6,7 +6,7 @@ import RevealOnScroll from '../components/RevealOnScroll';
 // Minimal valid PDF base64 to prevent crash if file is missing
 const PLACEHOLDER_PDF = "data:application/pdf;base64,JVBERi0xLjcKCjEgMCBvYmogICUgZW50cnkgcG9pbnQKPDwKICAvVHlwZSAvQ2F0YWxvZwogIC9QYWdlcyAyIDAgUgo+PgplbmRvYmoKCjIgMCBvYmoKPDwKICAvVHlwZSAvUGFnZXwKICAvTWVkaWFCb3ggWyAwIDAgNTk1LjI4IDg0MS44OSBdCiAgL0NvdW50IDEKICAvS2lkcyBbIDMgMCBSIF0KPj4KZW5kb2JqCgozIDAgb2JqCjw8CiAgL1R5cGUgL1BhZ2UKICAvUGFyZW50IDIgMCBSCiAgL1Jlc291cmNlcyA8PAogICAgL0ZvbnQgPDwKICAgICAgL0YxIDQgMCBSCj4+CiAgPj4KICAvQ29udGVudHMgNSAwIFIKPj4KZW5kb2JqCgo0IDAgb2JqCjw8CiAgL1R5cGUgL1ZvbnQKICAvU3VidHlwZSAvVHlwZTEKICAvQmFzZUZvbnQgL0hlbHZldGljYQo+PgplbmRvYmoKCjUgMCBvYmoKPDwKICAvTGVuZ3RoIDIyMwo+PgpzdHJlYW0KQlQKL0YxIDI0IFRmCjEwMCA3MDAgVGQKKFBsZWFzZSByZXBsYWNlIHB1YmxpYy9yZXN1bWUucGRmIHdpdGggeW91ciBhY3R1YWwgcmVzdW1lLikgVGoKRVQKZW5kc3RyZWFtCmVuZG9iagoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDEwIDAwMDAwIG4gCjAwMDAwMDAwNjAgMDAwMDAgbiAKMDAwMDAwMDE1NyAwMDAwMCBuIAowMDAwMDAwMjY0IDAwMDAwIG4gCjAwMDAwMDAzNTIgMDAwMDAgbiAKdHJhaWxlcgo8PAogIC9TaXplIDYKICAvUm9vdCAxIDAgUgo+PgpzdGFydHhyZWYKNjI1CiUlRU9GCg==";
 
-const Resume: React.FC = () => {
+const Resume = () => {
   const handleDownload = async (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const downloadBtn = e.currentTarget;
@@ -44,7 +44,7 @@ const Resume: React.FC = () => {
     <div className="py-12">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <RevealOnScroll animation="slide-down">
+        <RevealOnScroll animation="slide-up">
           <div className="flex flex-col sm:flex-row justify-between items-center mb-8 gap-4">
             <h1 className="text-4xl font-heading font-bold text-textMain dark:text-white">Resume</h1>
             
@@ -79,7 +79,7 @@ const Resume: React.FC = () => {
                 {/* Profile Photo */}
                 <div className="flex-shrink-0">
                   <img 
-                    src="/profile.jpg" 
+                    src="../profile.jpg" 
                     alt="Bhushan Shimpi" 
                     className="w-48 h-48 rounded-full border-4 border-white/10 object-cover shadow-2xl"
                     onError={(e) => {

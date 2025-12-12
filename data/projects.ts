@@ -17,7 +17,7 @@ export const projects: Project[] = [
     links: {
    
     },
-    images: ["/assets/rapidrescue1.png", "/assets/rapidrescue2.png"]
+    images: ["../rapidrescue1.png", "../rapidrescue2.png"]
   },
   {
     id: "p2",
@@ -36,7 +36,7 @@ export const projects: Project[] = [
       github: "",
       demo: "https://jobgenie-demo.vercel.app"
     },
-    images: ["assets/jobgenie.png", "https://picsum.photos/800/450?random=4"]
+    images: ["../jobgenie.png", "https://picsum.photos/800/450?random=4"]
   },
   {
     id: "p3",
@@ -55,6 +55,6 @@ export const projects: Project[] = [
       github: "",
       demo: "https://yang75year2k.com/"
     },
-    images: ["assets/yang.png", "assets/yang75year2k2.png"]
+    images: ["../yang.png", "../yang75year2k2.png"]
   }
 ];
