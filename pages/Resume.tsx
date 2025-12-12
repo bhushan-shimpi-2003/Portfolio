@@ -58,7 +58,7 @@ const Resume = () => {
               </button>
               
               <a 
-                href="/resume.pdf" 
+                href="../resume.pdf" 
                 onClick={handleDownload}
                 className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-semibold text-white bg-primary rounded-lg hover:bg-primary/90 transition-all shadow-lg shadow-primary/30"
               >
